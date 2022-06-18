@@ -14,5 +14,4 @@
       daemon_reload: yes
       name: "{{item}}"
     loop:
-      - "wgui.service"
       - "wgui.path"
