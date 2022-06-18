@@ -10,7 +10,7 @@
   - name: Restart wireguard
     systemd:
       state: restarted
-      enable: yes
+      enabled: yes
       daemon_reload: yes
       name: "{{item}}"
     loop:
